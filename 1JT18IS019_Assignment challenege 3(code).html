@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+  <html>
+  <head>
+      <title>Assignment 3</title>
+  <style>
+		p {
+		position: absolute;
+		top: 30%;
+		left: 80%;
+		transform: translate(-50%, -50%);
+		}
+		 img {	
+		margin: 0px 0px 15px 20px;
+		width:45%;
+		height:30%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		}
+  </style>
+  </head>
+  <body>
+		<a href="https://www.Home|/"> Home |</a>
+		<a href="https://www.Places|/"> Places |</a>
+		<a href="https://www.Gallery|/"> Gallery |</a>
+		<a href="https://www.About Us|/"> About Us |</a>
+		<a href="https://www.Search/"> Search</a>
+     <p id="demo"></p>
+     <h2>Wonderful Beach Side</h2>
+		<img src="web image.jpg" alt="sunshine" width="800" height="500">
+		<p1> By <a href="https://www.Chitra/"> Chitra</a> </p1>
+		<br> A beach is a narrow, gently sloping strip of land that lies along the edge of an ocean, lake, or river. Materials such as sand, pebbles, rocks, and seashell fragments cover beaches. Most beach materials are the products of weathering and erosion. Over many years, water and wind wear away at the land.</br>
+		<p3> It was a beautiful weather when we got up in the morning. It was our holiday too, so father decided to take us to the beach. We invited our cousins also. Just after breakfast, we packed our bags with our swimsuits, beach toys, eatables, etc., and we were off to the beach.When we reached there, we found a good place under a tree where we kept our things. There were a lot of people enjoying themselves around the beach.</p3>
+		<br><input type="Date" value="20th May"></br>
+     <h2>Reviews</h2>
+     <div>
+		<p4> <strong>Excellent!! </strong> <br> Luci
+		<img src="Luci.png">
+	    </p4>
+	    <p5><small>Its a great place. The beauty of nature is something to cherish here.</small></p5>
+	 </div>
+
+     <div>
+		<p4> <strong>Good one! </strong> <br> Lindaa
+		<img src="Lindaa.jpg">
+	    </p4>  
+	     <p5><small>cool place.</small></p5>        	            	       
+     </div>
+
+     <div>
+		<p4> <strong> Excellent!! </strong> <br> aashh
+		<img src="aashh.png">
+	    </p4>
+	    <p5><small>Amazing beach side.</small></p5>        	            	       
+     </div>
+
+  <script>
+		var var1 = setInterval(inTimer, 500);
+		var fs = 5; //font size
+		var ids = document.getElementById("demo");
+	  function inTimer()
+	    {
+			ids.innerHTML = 'Ocean Therapy';
+			ids.setAttribute('style', "font-size: " + fs + "px; color: red");
+			fs += 5;
+		if (fs >= 50)
+          {
+			clearInterval(var1); //paused
+			var2 = setInterval(deTimer, 500);
+          }
+        }
+
+      function deTimer() //fs = 50px
+        {
+			fs -= 5;
+			ids.innerHTML = 'Ocean Therapy';
+			ids.setAttribute('style', "font-size: " + fs + "px; color: red");
+		if (fs == 5)
+		  {
+			clearInterval(var2); //paused
+			var1 = setInterval(inTimer, 500);
+          }
+        }
+  </script>
+
+		<a href="https://www.Home|/"> Home |</a>
+		<a href="https://www.Places|/"> Places |</a>
+		<a href="https://www.Gallery|/"> Gallery |</a>
+		<a href="https://www.About Us/"> About Us </a>
+        <br>copyright © 2021 Beach Side</br>
+
+  </body>
+</html>
