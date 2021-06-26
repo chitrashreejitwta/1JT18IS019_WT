@@ -1,0 +1,35 @@
+<?xml-stylesheet type="text/css" href="p5.css"?>
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <h1> STUDENTS DESCRIPTION </h1>
+   </head>
+ <students>
+      <student>
+		<USN> USN : 1RN20EC136</USN>
+		<name>Name : INCHARA</name>
+		<college>COLLEGE : RNSIT</college>
+		<branch>BRANCH : Electronics and Communication and Engineering</branch>
+		<year>YEAR : 2020</year>
+		<e-mail>E-Mail : inchu112020@gmail.com</e-mail>
+      </student>
+
+      <student>
+		<USN>USN : 1RN20CV124</USN>
+		<name>NAME : CHOLE</name>
+		<college>COLLEGE : RNSIT</college>
+		<branch>BRANCH : Civil Engineering</branch>
+		<year>YEAR : 2020</year>
+		<e-mail>E-Mail : choledeck20@gmail.com</e-mail>
+	  </student>
+
+      <student>
+		<USN>USN : 1RN20ME144</USN>
+		<name>NAME : DAN</name>
+		<college>COLLEGE : RNSIT</college>
+		<branch>BRANCH : Mechanical Engineering</branch>
+		<year>YEAR : 2020</year>
+		<e-mail>E-Mail : dancharis99@gmail.com</e-mail>
+	  </student>
+ </students>
+</html>
